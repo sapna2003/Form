@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <legend>Tell us something positive that happened to you today</legend>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" /><br />
+      </div>
+
+      <div>
+        <label for="Email">Email</label>
+        <input
+          id="Email"
+          type="email"
+          placeholder="Enter your email address"
+        /><br />
+      </div>
+
+      <div>
+        <label for="rating">On a scale of 1-10, how good was it?</label>
+        <input type="number" id="rating" /><br />
+      </div>
+
+      <div>
+        <label for="happen">When did it happen?</label>
+        <select name="" id="happen">
+          <option value="At home">At home</option></select
+        ><br />
+      </div>
+
+      <div class="radio">
+        <div id="left">
+          <p>At what time of day, did it happen</p>
+        </div>
+        <div id="right">
+          <div class="right">
+            <input type="radio" id="morning" name="radios" />
+            <label for="morning">Morning</label><br />
+          </div>
+          <div class="right">
+            <input type="radio" id="afternoon" name="radios" />
+            <label for="afternoon">Afternoon</label><br />
+          </div>
+          <div class="right">
+            <input type="radio" id="evening" name="radios" />
+            <label for="evening">Evening</label><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="emotions">
+        <div id="left">
+          <p>What emotions did you experience?</p>
+        </div>
+        <div id="right">
+          <div class="checkbox-right">
+            <input
+              type="checkbox"
+              id="excited"
+              name="checkboxs"
+              value="excited"
+            />
+            <label for="excited"> Excited </label><br />
+          </div>
+          <div class="checkbox-right">
+            <input
+              type="checkbox"
+              id="humbled"
+              name="checkboxs"
+              value="humbled"
+            />
+            <label for="humbled"> Humbled </label><br />
+          </div>
+
+          <div class="checkbox-right">
+            <input
+              type="checkbox"
+              id="elated"
+              name="checkboxs"
+              value="elated"
+            />
+            <label for="elated"> Elated </label><br />
+          </div>
+
+          <div class="checkbox-right">
+            <input
+              type="checkbox"
+              id="loved"
+              name="checkboxs"
+              value="excited"
+            />
+            <label for="loved"> Loved </label><br />
+          </div>
+
+          <div class="checkbox-right">
+            <input
+              type="checkbox"
+              id="enthusiastic"
+              name="checkboxs"
+              value="enthusiastic"
+            />
+            <label for="enthusiastic"> Enthusiastic </label><br />
+          </div>
+        </div>
+      </div>
+      <div class="textarea-class">
+        <label for="text-area">Please describe your positive experience</label>
+        <textarea name="" id="text-area" cols="30" rows="4"></textarea>
+      </div>
+
+      <button id="submit">submit</button>
+    </form>
+  </body>
+</html>
